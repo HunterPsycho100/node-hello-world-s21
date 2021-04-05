@@ -2,8 +2,12 @@
   "name": "hello-world-s21",
   "version": "1.0.0",
   "description": "A simple Hello World Node App",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +15,8 @@
     "url": "git+https://github.com/HunterPsycho100/node-hello-world-s21.git"
   },
   "keywords": [
-    "nodejs"
+    "nodejs",
+    "heroku"
   ],
   "author": "Hunter W. Hanay",
   "license": "ISC",
